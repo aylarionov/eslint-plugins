@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-path-checker-plugin",
+  "name": "eslint-custom-plugin",
   "version": "0.0.3",
   "description": "plugin for pet project",
   "keywords": [
