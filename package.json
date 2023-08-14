@@ -1,5 +1,5 @@
 {
-  "name": "eslint-custom-plugin",
+  "name": "eslint-plugin-custom-rules",
   "version": "0.0.3",
   "description": "plugin for pet project",
   "keywords": [
