@@ -34,6 +34,16 @@ ruleTester.run("path-checker", rule, {
   invalid: [
     {
       filename: "/Users/anton/Desktop/Ulbi/pro/src/entities/Notification/ui/NotificationList/NotificationList.tsx",
+      code: "import { useNotifications } from '@/entities/Notification/api/notificationApi'",
+      errors: [{ message: "В рамках одного слайса все пути должны быть относительными"}],
+      options: [
+        {
+          alias: '@'
+        }
+      ]
+    },
+    {
+      filename: "/Users/anton/Desktop/Ulbi/pro/src/entities/Notification/ui/NotificationList/NotificationList.tsx",
       code: "import { useNotifications } from 'entities/Notification/api/notificationApi'",
       errors: [{ message: 'В рамках одного слайса все пути должны быть относительными' }],
     },
